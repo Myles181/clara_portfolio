@@ -7,3 +7,4 @@ Flask-WTF==1.2.1
 requests==2.31.0
 SQLAlchemy==2.0.25
 virtualenv==20.25.0
+gunicorn==21.2.0
