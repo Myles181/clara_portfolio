@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <!-- <title>Document</title> -->
+</head>
+<body>
+    <header>
+        <h2>My Profile</h2>
+    </header>
+    <div class="profile">
+        <img src="{{ url_for('static', filename='clara.jpg') }}" alt="Profile Image">
+    </div>
+    <h2>About Me:</h2>
+    <p>My name is Clara, I am 35 and a Social Worker in Assisted Living care. I have HND in Communication and still like learning more,
+        I always wanted to be a nurse . I love to have some courses in care even though is long I left school.
+    </p>
+    <p>My hobbies Include listening to music, travelling. I will support anyone in anyway I can.</p>
+    <h2>Fun Facts:</h2>
+    <p>My dream vacation is going to Paris and Australia</p>
+</body>
+</html>
